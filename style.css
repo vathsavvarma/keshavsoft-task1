@@ -1,0 +1,83 @@
+body {
+  background: #FAF6F0;
+  color: #232323;
+  font-family: 'Inter', 'Segoe UI', Arial, sans-serif;
+}
+.navbar-classy {
+  background: #222946;
+}
+.navbar-classy .navbar-brand, .navbar-classy .nav-link { 
+    color: #fff !important; 
+}
+.navbar-classy .nav-link.active, .navbar-classy .nav-link:hover {
+  color: #F9C784 !important;
+  text-decoration: underline;
+}
+
+.hero-classy {
+  padding: 90px 0 60px;
+  background: #FAF6F0;
+  text-align: center;
+}
+.hero-classy h1 { 
+    color: #222946; font-weight: bold; 
+}
+.hero-classy p { 
+    color: #44494f; 
+}
+
+.btn-accent {
+  background: #F9C784;
+  color: #222946;
+  border-radius: 28px;
+  font-weight: bold;
+  border: none;
+  padding: 0.75rem 2.25rem;
+}
+.btn-accent:hover, .btn-accent:focus {
+  background: #222946;
+  color: #fff;
+}
+
+.features-classy {
+  background: #fff;
+  padding: 60px 0 40px;
+}
+.feature-card-classy {
+  border: none;
+  background: #FAF6F0;
+  border-radius: 16px;
+  box-shadow: 0 4px 24px rgba(42, 54, 89, 0.10);
+  transition: box-shadow 0.2s;
+}
+.feature-card-classy:hover {
+  box-shadow: 0 8px 32px rgba(249, 199, 132, 0.16);
+}
+.feature-icon-classy {
+  font-size: 2.2rem;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center; justify-content: center;
+  border-radius: 50%;
+  margin: 0 auto 16px;
+  background: #222946;
+  color: #F9C784;
+}
+
+.footer-classy {
+  background: #222946;
+  color: #fff;
+  text-align: center;
+  padding: 22px 0;
+  font-size: 0.96rem;
+  margin-top: 40px;
+}
+
+.navbar-classy .navbar-toggler-icon {
+  filter: invert(1) brightness(2);
+}
+.navbar-toggler {
+    border:rgb(255 255 255) solid;
+}
+
